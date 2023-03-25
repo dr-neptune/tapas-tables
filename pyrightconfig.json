@@ -1,0 +1,11 @@
+{
+    "include": [
+        "table-qa"
+    ],
+    "exclude": [
+        "**/__pycache__"
+    ],
+
+    "reportMissingImports": "error",
+    "reportMissingTypeStubs": "none"
+}

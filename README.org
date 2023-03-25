@@ -1,0 +1,12 @@
+#+TITLE: Table Q&A
+
+This project adds a natural language Q&A layer onto an existing
+database table
+
+Modules:
+
+- Dash App with data table and language input
+- Sentence Transformer
+- Pinecone DB layer
+- Embedding Creation
+- Tapas model

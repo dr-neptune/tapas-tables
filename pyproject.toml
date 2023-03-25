@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "table-qa"
+version = "0.1.0"
+description = ""
+authors = ["dr-neptune <mrose4@worcester.edu>"]
+readme = "README.md"
+packages = [{include = "table_qa"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^1.5.3"
+numpy = "^1.24.2"
+datasets = "^2.10.1"
+dash = "^2.9.1"
+dash-mantine-components = "^0.12.0"
+setuptools = "^67.6.0"
+faker = "^18.3.1"
+sentence-transformers = "^2.2.2"
+pinecone-client = "^2.2.1"
+python-dotenv = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
