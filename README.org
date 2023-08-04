@@ -10,3 +10,7 @@ Modules:
 - Pinecone DB layer
 - Embedding Creation
 - Tapas model
+
+
+update:
+abandoned. It seems that tapas in this shape has a 512 cell limit. May pick this back up if that limitation is overcome
